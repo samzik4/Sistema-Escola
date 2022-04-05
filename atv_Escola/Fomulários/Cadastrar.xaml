@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="Cadastrar" Height="450" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="80"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Content="Escola - Cadastro" FontSize="18 px" HorizontalAlignment="Center"/>
+        <Label Grid.Row="1" Content="Informações" Margin="20 0"/>
+        <Label Grid.Row="1" Content="Nome fantasia"/>
     </Grid>
 </Window>
